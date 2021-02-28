@@ -1,0 +1,163 @@
+#main-header
+{
+	background:url("https://www.aveeno.com/sites/aveeno_us_2/files/topviewnourishingnatural_646482.jpg");
+	padding:10px;
+	text-align:right;
+	font-family: "comic sans ms",sans-serif;
+	font-size: 30px;
+	color:green;
+	border:3px solid green;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+
+}
+#main-nav
+{
+	background:beige;
+	padding:15px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border:3px solid green;
+	flex-direction:row;
+}
+#main-nav a.active
+{
+background-color:green;
+border-radius:5px;
+color:beige;
+border:2px solid beige;
+}
+nav a
+{
+	margin:30px;
+	text-decoration:none;
+	padding:2px;
+	font-family:"comic sans ms",sans-serif; 
+	color:green;
+}
+i
+{
+	margin:2px;
+	font-size:20px;
+}
+#main-section
+{
+	text-align:center;
+	margin:15px 0px;
+}
+.wavy
+{
+	text-decoration:underline;
+	text-decoration-style:wavy;
+}
+.article-1
+{
+	text-align:center;
+	width:350px;
+	height:600px;
+	border:3px solid green;
+	padding-left:20px;
+	border-radius: 10px;
+display:inline-grid;
+box-shadow:10px 10px 1px green;
+margin:10px;
+color:green;
+background: beige;
+}
+.article-1 img
+{
+	margin:auto;
+	border:1px solid green;
+}
+body
+{
+font-family:"comic sans ms",sans-serif; 
+	
+}
+#main-section-news
+{
+	width:80%;
+	margin:auto;
+}
+#main-section-news .main-section-news-article
+{
+	border:2px solid green;
+	border-radius:20px;
+	margin:10px;
+	overflow:hidden;
+	padding:5px;
+	text-align:center;
+	background-color:beige;
+	color:green;
+	width:100%;
+}
+#main-section-news .main-section-news-article img
+{
+	width:500px;
+	height:300px;
+	border-radius:1px;
+	margin:auto;
+	border:5px solid green;
+
+}
+
+#main-section-news .main-section-news-article .zoom
+{
+	width:500px;
+	height:300px;
+	box-shadow:0 0 10px green;
+	margin:auto;
+	transition:all 0.5s
+}
+#main-sectin-gallery
+{
+	display:flex;
+	flex-direction: column;
+	transition: all ;
+}
+
+#main-section-news .main-section-news-article .zoom
+{
+	transform:scale(1.2,1.2);
+}
+@media(max-width:600px)
+{
+	#main-nav
+	{
+		flex-direction:column;
+	}
+}
+@media(max-width:750px)
+{
+	#main-nav
+	{
+		flex-direction:column;
+	}
+	#main-section-news .main-section-news-article .zoom
+	{
+		width:400px;
+	}
+	#main-sectin-gallery
+{
+	display:flex;
+	flex-direction:row;
+}
+}
+@media(max-width:500px)
+{
+	#main-nav
+	{
+		flex-direction:column;
+	}
+	#main-section-news .main-section-news-article .zoom
+	{
+		width:200px;
+	}
+#main-sectin-gallery
+{
+	display:flex;
+	flex-direction: column;
+}
+}
+
+
